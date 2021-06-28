@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="author" content="Romual Naibaho">
+    <meta name="keywords" content="Niomic, PPM, Bootcamp, HTML">
+    <meta name="Description" content="Belajar HTML">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Belajar HTML - NIOMIC</title>
+
+</head>
+<style>
+    button, input {
+        margin-top: 10px;
+    }
+</style>
+<body>
+
+    <h1>Napak Tilas</h1>
+
+    <form action="/action_page.php">
+        <fieldset>
+            <legend>Form</legend>
+            <table>
+                <tr>
+                    <td>Nama</td>
+                    <td>:<input type="text" id="name" name="name" placeholder="Nama Lengkap"></td>
+                </tr>
+                <tr>
+                    <td>Username</td>
+                    <td>:<input type="text" id="username" name="username" placeholder="Username"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>:<input type="email" id="email" name="email" placeholder="Your email"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td>:<input type="password" id="password" name="password" placeholder="Password"></td>
+                </tr>
+                <tr>
+                    <td>Alamat Web</td>
+                    <td>:<input type="url" id="web" name="web" placeholder="Masukkan URL Web"></td>
+                </tr>
+                <tr>
+                    <td>Tanggal Lahir</td>
+                    <td>:<input type="date" id="tgl_lahir" name="tgl_lahir"></td>
+                </tr>
+                <tr>
+                    <td>Umur</td>
+                    <td>:<input type="number" id="umur" name="umur" min="10" max="35"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin  </td>
+                    <td>
+                        :<input type="radio" id="jenis_kelamin" name="jenis_kelamin" value="pria">
+                        <label>Pria</label>
+                        :<input type="radio" id="jenis_kelamin" name="jenis_kelamin" value="wanita">
+                        <label>Wanita</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Agama</td>
+                    <td>:
+                        <select name="makanan">
+                            <option value="Kristen">Kristen</option>
+                            <option value="Buddha">Buddha</option>
+                            <option value="Islam" selected>Islam</option>
+                            <option value="Hindu">Hindu</option>
+                            <option value="Katolik">Katolik</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Biografi</td>
+                    <td>:<textarea name="bio" id="bio" cols="30" rows="2"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Foto</td>
+                    <td>: <img src="logo1.jpg" width="250px" alt="Gbr1"></td>
+                </tr>
+            </table>
+            <audio src="sample.mp3" controls type="audio/mpeg"></audio><br>
+        </fieldset>
+    </form>
+
+</body>
+</html>
